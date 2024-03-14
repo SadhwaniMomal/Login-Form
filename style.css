@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+.container {
+  /* border: 1px solid; */
+  width: 582px;
+  height: 376px;
+  display: flex;
+  margin: 130px 501px;
+  padding: 13px;
+  background-color: aliceblue;
+  border-radius: 15px;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.left {
+  /* border: 1px solid; */
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.left h2,
+i,
+.left p {
+  margin: 5px;
+}
+
+.left div {
+  margin: 10px;
+}
+.left div input {
+  padding: 7px;
+  background: rgba(193, 193, 196, 0.74);
+  border: none;
+  margin-top: 5px;
+  color: black;
+}
+
+.left i {
+  padding: 15px;
+  font-size: 26px;
+}
+.right {
+  /* border: 1px solid; */
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(233, 100, 104, 0.865);
+  color: white;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: rgba(233, 100, 104, 0.865);
+  margin: 7px;
+  padding: 7px;
+  color: aliceblue;
+  font-size: large;
+  border-radius: 15px;
+  width: 45%;
+  border: none;
+}
+
+.right h1,
+.right p {
+  margin-top: 36px;
+}
